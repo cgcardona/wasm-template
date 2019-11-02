@@ -67,7 +67,6 @@ wasm-pack build
    Compiling proc-macro2 v1.0.6
    ...
 
-
 npm init wasm-app www
 
 cd www
