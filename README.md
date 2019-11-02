@@ -26,10 +26,6 @@ Build the wasm
 
 ```
 wasm-pack build
-[INFO]: 🎯  Checking for the Wasm target...
-[INFO]: 🌀  Compiling to Wasm...
-   Compiling proc-macro2 v1.0.6
-   ...
 ```
 
 Change directories and install the web deps
@@ -45,11 +41,11 @@ Start the app
 npm run start
 ```
 
-Now open the browser to [http://localhost:8080](http://localhost:8080)
+Now open the browser to [http://localhost:8080](http://localhost:8080) and you should see the number `507` written to the screen. This is set in `src/lib.rs` and placed in the DOM via javascript!
 
 ## Things to notice
 
-[Public functions](./src/lib.rs#L16) which have the `#[wasm_bindgen]` attribute in `src/lib.rs` are available for import in your [./www/index.js#L3](https://github.com/cgcardona/wasm-template/blob/master/www/index.js#L3)
+- [Public functions](./src/lib.rs#L16) which have the `#[wasm_bindgen]` attribute in `src/lib.rs` are available for import in your [./www/index.js#L3](https://github.com/cgcardona/wasm-template/blob/master/www/index.js#L3)
 
 ## Steps
 
