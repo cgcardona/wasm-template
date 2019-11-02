@@ -1,3 +1,6 @@
-import * as wasm from "hello-wasm-pack";
+import { Foo } from "wasm-template"
 
-wasm.greet();
+const foo = Foo.new()
+
+const el = document.getElementById("wasm-template")
+el.innerHTML = foo.bar
