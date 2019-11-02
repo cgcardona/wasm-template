@@ -37,6 +37,10 @@ npm run start
 
 Now open the browser to [http://localhost:8080](http://localhost:8080)
 
+## Things to notice
+
+[Public functions](./src/lib.rs#L16) which have the `#[wasm_bindgen]` attribute in `src/lib.rs` are available for import in your [./www/index.js#L3](https://github.com/cgcardona/wasm-template/blob/master/www/index.js#L3)
+
 ## Steps
 
 To do all these steps in order:
