@@ -22,6 +22,16 @@ Build the app and deps
 cargo build
 ```
 
+Build the wasm
+
+```
+wasm-pack build
+[INFO]: 🎯  Checking for the Wasm target...
+[INFO]: 🌀  Compiling to Wasm...
+   Compiling proc-macro2 v1.0.6
+   ...
+```
+
 Change directories and install the web deps
 
 ```
