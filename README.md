@@ -60,6 +60,7 @@ cargo generate --git https://github.com/rustwasm/wasm-pack-template
 
 cd wasm-template
 
+cargo build
 wasm-pack build
 [INFO]: 🎯  Checking for the Wasm target...
 [INFO]: 🌀  Compiling to Wasm...
